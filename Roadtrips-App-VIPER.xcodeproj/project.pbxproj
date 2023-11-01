@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8200177A2AF1FEF700165FCB /* Roadtrips_App_VIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017792AF1FEF700165FCB /* Roadtrips_App_VIPERApp.swift */; };
+		8200177C2AF1FEF700165FCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200177B2AF1FEF700165FCB /* ContentView.swift */; };
+		8200177E2AF1FEFA00165FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8200177D2AF1FEFA00165FCB /* Assets.xcassets */; };
+		820017812AF1FEFA00165FCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820017802AF1FEFA00165FCB /* Preview Assets.xcassets */; };
+		820017892AF1FF2D00165FCB /* TripListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017882AF1FF2D00165FCB /* TripListInteractor.swift */; };
+		8200178C2AF1FFC500165FCB /* TripListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200178B2AF1FFC500165FCB /* TripListPresenter.swift */; };
+		820017912AF2016600165FCB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200178E2AF2016600165FCB /* DataModel.swift */; };
+		820017922AF2016600165FCB /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200178F2AF2016600165FCB /* Waypoint.swift */; };
+		820017932AF2016600165FCB /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017902AF2016600165FCB /* Trip.swift */; };
+		820017982AF2017A00165FCB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017952AF2017A00165FCB /* MapView.swift */; };
+		820017992AF2017A00165FCB /* SplitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017962AF2017A00165FCB /* SplitImage.swift */; };
+		8200179A2AF2017A00165FCB /* TripListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017972AF2017A00165FCB /* TripListCell.swift */; };
+		8200179F2AF2019B00165FCB /* WaypointViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200179C2AF2019B00165FCB /* WaypointViewPresenter.swift */; };
+		820017A02AF2019B00165FCB /* WaypointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200179D2AF2019B00165FCB /* WaypointView.swift */; };
+		820017A12AF2019B00165FCB /* WaypointViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200179E2AF2019B00165FCB /* WaypointViewInteractor.swift */; };
+		820017A82AF205C300165FCB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017A52AF205C300165FCB /* Persistence.swift */; };
+		820017A92AF205C300165FCB /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017A62AF205C300165FCB /* ImageDataProvider.swift */; };
+		820017AA2AF205C300165FCB /* MapDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017A72AF205C300165FCB /* MapDataProvider.swift */; };
+		820017AD2AF207E800165FCB /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017AC2AF207E800165FCB /* TripListView.swift */; };
+		820017AF2AF20F4300165FCB /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 820017AE2AF20F4300165FCB /* default.json */; };
+		820017B12AF215C600165FCB /* TripDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017B02AF215C600165FCB /* TripDetailPresenter.swift */; };
+		820017B32AF2160600165FCB /* TripDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017B22AF2160600165FCB /* TripDetailInteractor.swift */; };
+		820017B52AF21FB200165FCB /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017B42AF21FB200165FCB /* TripDetailView.swift */; };
+		820017B82AF2208900165FCB /* TripListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820017B72AF2208900165FCB /* TripListRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		820017762AF1FEF700165FCB /* Roadtrips-App-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roadtrips-App-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820017792AF1FEF700165FCB /* Roadtrips_App_VIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roadtrips_App_VIPERApp.swift; sourceTree = "<group>"; };
+		8200177B2AF1FEF700165FCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8200177D2AF1FEFA00165FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		820017802AF1FEFA00165FCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		820017882AF1FF2D00165FCB /* TripListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListInteractor.swift; sourceTree = "<group>"; };
+		8200178B2AF1FFC500165FCB /* TripListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListPresenter.swift; sourceTree = "<group>"; };
+		8200178E2AF2016600165FCB /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8200178F2AF2016600165FCB /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
+		820017902AF2016600165FCB /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		820017952AF2017A00165FCB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		820017962AF2017A00165FCB /* SplitImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitImage.swift; sourceTree = "<group>"; };
+		820017972AF2017A00165FCB /* TripListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripListCell.swift; sourceTree = "<group>"; };
+		8200179C2AF2019B00165FCB /* WaypointViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointViewPresenter.swift; sourceTree = "<group>"; };
+		8200179D2AF2019B00165FCB /* WaypointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointView.swift; sourceTree = "<group>"; };
+		8200179E2AF2019B00165FCB /* WaypointViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointViewInteractor.swift; sourceTree = "<group>"; };
+		820017A52AF205C300165FCB /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		820017A62AF205C300165FCB /* ImageDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
+		820017A72AF205C300165FCB /* MapDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataProvider.swift; sourceTree = "<group>"; };
+		820017AC2AF207E800165FCB /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		820017AE2AF20F4300165FCB /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		820017B02AF215C600165FCB /* TripDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailPresenter.swift; sourceTree = "<group>"; };
+		820017B22AF2160600165FCB /* TripDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailInteractor.swift; sourceTree = "<group>"; };
+		820017B42AF21FB200165FCB /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		820017B72AF2208900165FCB /* TripListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820017732AF1FEF700165FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8200176D2AF1FEF700165FCB = {
+			isa = PBXGroup;
+			children = (
+				820017782AF1FEF700165FCB /* Roadtrips-App-VIPER */,
+				820017772AF1FEF700165FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820017772AF1FEF700165FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820017762AF1FEF700165FCB /* Roadtrips-App-VIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820017782AF1FEF700165FCB /* Roadtrips-App-VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				820017AE2AF20F4300165FCB /* default.json */,
+				820017AB2AF207D800165FCB /* View */,
+				820017872AF1FF1800165FCB /* Interactor */,
+				8200178A2AF1FFAF00165FCB /* Presenter */,
+				8200178D2AF2016600165FCB /* Entities */,
+				820017B62AF2205B00165FCB /* Router */,
+				820017A42AF205C300165FCB /* Data Sources */,
+				8200179B2AF2019B00165FCB /* WaypointModule */,
+				820017942AF2017A00165FCB /* Functional Views */,
+				820017792AF1FEF700165FCB /* Roadtrips_App_VIPERApp.swift */,
+				8200177D2AF1FEFA00165FCB /* Assets.xcassets */,
+				8200177F2AF1FEFA00165FCB /* Preview Content */,
+			);
+			path = "Roadtrips-App-VIPER";
+			sourceTree = "<group>";
+		};
+		8200177F2AF1FEFA00165FCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				820017802AF1FEFA00165FCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		820017872AF1FF1800165FCB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				820017882AF1FF2D00165FCB /* TripListInteractor.swift */,
+				820017B22AF2160600165FCB /* TripDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8200178A2AF1FFAF00165FCB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8200178B2AF1FFC500165FCB /* TripListPresenter.swift */,
+				820017B02AF215C600165FCB /* TripDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8200178D2AF2016600165FCB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8200178E2AF2016600165FCB /* DataModel.swift */,
+				8200178F2AF2016600165FCB /* Waypoint.swift */,
+				820017902AF2016600165FCB /* Trip.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		820017942AF2017A00165FCB /* Functional Views */ = {
+			isa = PBXGroup;
+			children = (
+				820017952AF2017A00165FCB /* MapView.swift */,
+				820017962AF2017A00165FCB /* SplitImage.swift */,
+				820017972AF2017A00165FCB /* TripListCell.swift */,
+			);
+			path = "Functional Views";
+			sourceTree = "<group>";
+		};
+		8200179B2AF2019B00165FCB /* WaypointModule */ = {
+			isa = PBXGroup;
+			children = (
+				8200179C2AF2019B00165FCB /* WaypointViewPresenter.swift */,
+				8200179D2AF2019B00165FCB /* WaypointView.swift */,
+				8200179E2AF2019B00165FCB /* WaypointViewInteractor.swift */,
+			);
+			path = WaypointModule;
+			sourceTree = "<group>";
+		};
+		820017A42AF205C300165FCB /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				820017A52AF205C300165FCB /* Persistence.swift */,
+				820017A62AF205C300165FCB /* ImageDataProvider.swift */,
+				820017A72AF205C300165FCB /* MapDataProvider.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		820017AB2AF207D800165FCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8200177B2AF1FEF700165FCB /* ContentView.swift */,
+				820017AC2AF207E800165FCB /* TripListView.swift */,
+				820017B42AF21FB200165FCB /* TripDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		820017B62AF2205B00165FCB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				820017B72AF2208900165FCB /* TripListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820017752AF1FEF700165FCB /* Roadtrips-App-VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820017842AF1FEFA00165FCB /* Build configuration list for PBXNativeTarget "Roadtrips-App-VIPER" */;
+			buildPhases = (
+				820017722AF1FEF700165FCB /* Sources */,
+				820017732AF1FEF700165FCB /* Frameworks */,
+				820017742AF1FEF700165FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roadtrips-App-VIPER";
+			productName = "Roadtrips-App-VIPER";
+			productReference = 820017762AF1FEF700165FCB /* Roadtrips-App-VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8200176E2AF1FEF700165FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					820017752AF1FEF700165FCB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 820017712AF1FEF700165FCB /* Build configuration list for PBXProject "Roadtrips-App-VIPER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8200176D2AF1FEF700165FCB;
+			productRefGroup = 820017772AF1FEF700165FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820017752AF1FEF700165FCB /* Roadtrips-App-VIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820017742AF1FEF700165FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820017AF2AF20F4300165FCB /* default.json in Resources */,
+				820017812AF1FEFA00165FCB /* Preview Assets.xcassets in Resources */,
+				8200177E2AF1FEFA00165FCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820017722AF1FEF700165FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820017B52AF21FB200165FCB /* TripDetailView.swift in Sources */,
+				820017912AF2016600165FCB /* DataModel.swift in Sources */,
+				8200179F2AF2019B00165FCB /* WaypointViewPresenter.swift in Sources */,
+				820017B12AF215C600165FCB /* TripDetailPresenter.swift in Sources */,
+				820017A92AF205C300165FCB /* ImageDataProvider.swift in Sources */,
+				820017AA2AF205C300165FCB /* MapDataProvider.swift in Sources */,
+				820017A12AF2019B00165FCB /* WaypointViewInteractor.swift in Sources */,
+				820017A82AF205C300165FCB /* Persistence.swift in Sources */,
+				820017982AF2017A00165FCB /* MapView.swift in Sources */,
+				820017892AF1FF2D00165FCB /* TripListInteractor.swift in Sources */,
+				820017922AF2016600165FCB /* Waypoint.swift in Sources */,
+				820017AD2AF207E800165FCB /* TripListView.swift in Sources */,
+				8200179A2AF2017A00165FCB /* TripListCell.swift in Sources */,
+				8200178C2AF1FFC500165FCB /* TripListPresenter.swift in Sources */,
+				820017A02AF2019B00165FCB /* WaypointView.swift in Sources */,
+				8200177C2AF1FEF700165FCB /* ContentView.swift in Sources */,
+				820017992AF2017A00165FCB /* SplitImage.swift in Sources */,
+				820017B32AF2160600165FCB /* TripDetailInteractor.swift in Sources */,
+				820017B82AF2208900165FCB /* TripListRouter.swift in Sources */,
+				820017932AF2016600165FCB /* Trip.swift in Sources */,
+				8200177A2AF1FEF700165FCB /* Roadtrips_App_VIPERApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		820017822AF1FEFA00165FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		820017832AF1FEFA00165FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820017852AF1FEFA00165FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roadtrips-App-VIPER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Purplle.Roadtrips-App-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820017862AF1FEFA00165FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roadtrips-App-VIPER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Purplle.Roadtrips-App-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820017712AF1FEF700165FCB /* Build configuration list for PBXProject "Roadtrips-App-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820017822AF1FEFA00165FCB /* Debug */,
+				820017832AF1FEFA00165FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820017842AF1FEFA00165FCB /* Build configuration list for PBXNativeTarget "Roadtrips-App-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820017852AF1FEFA00165FCB /* Debug */,
+				820017862AF1FEFA00165FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8200176E2AF1FEF700165FCB /* Project object */;
+}
